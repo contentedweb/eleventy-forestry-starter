@@ -1,0 +1,36 @@
+{
+  "title": "ContentedWeb",
+  "url": "https://www.contentedweb.com/",
+  "language": "en",
+  "description": "Web accessibility, photos, travel and random noise",
+  "startYear": "1998",
+  "relme": "https://github.com/contentedweb",
+  "feed": {
+    "subtitle": "Web accessibility, photos, travel and random noise",
+    "filename": "index.xml",
+    "path": "/feed/index.xml",
+    "id": "https://www.contentedweb.com/"
+  },
+  "author": {
+    "name": "ContentedWeb",
+    "email": "admin@contentedweb.com",
+    "url": "https://www.contentedweb.com/about/"
+  },
+  "css": {
+    "headerBgColor": "#F2E3A9",
+    "headerTitleColor": "#B85F01",
+    "headerTitleFocusColor": "#000000",
+    "headerSubtitleColor": "#800020",
+    "headerNavtextColor": "#005c5c",
+    "mainHighlightColor": "#AE0951",
+    "mainBgColor": "#ffffff",
+    "mainFontFamily": "'Lucia Grande', Verdana, Helvetica, Arial, sans-serif, serif",
+    "footerBgColor": "#eeeeee",
+    "footerTextColor": "var(--header-navtext-color)",
+    "footerNavtextColor": "var(--header-navtext-color)",
+    "linkColor": "#000000",
+    "linkFocusBgColor": "#ffff00",
+    "dateTextColor": "var(--header-bg-color)",
+    "dateBgColor": "var(--header-title-color)"
+  }
+}

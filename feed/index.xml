@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>11ty Forestry GH pages</title>
+	<subtitle>A started site for Eleventy with Forestry added in</subtitle>
+	
+	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
+	<link href="https://templ.contentedweb.com/" rel="alternate" type="text/html"/>
+	<updated>2022-02-01T00:00:00Z</updated>
+	<id>https://templ.contentedweb.com/</id>
+	<author>
+		<name>11ty Forestry GH pages</name>
+		<email>admin@contentedweb.com</email>
+	</author>
+	
+	
+	<entry>
+		<title>Another post</title>
+		<link href="https://templ.contentedweb.com/posts/2022/post-four/"/>
+		<updated>2022-02-01T00:00:00Z</updated>
+		<id>https://templ.contentedweb.com/posts/2022/post-four/</id>
+		<content type="html">&lt;p&gt;Write your content here.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Happy New Year</title>
+		<link href="https://templ.contentedweb.com/posts/2022/post-three/"/>
+		<updated>2022-01-01T00:01:00Z</updated>
+		<id>https://templ.contentedweb.com/posts/2022/post-three/</id>
+		<content type="html">&lt;p&gt;Happy New Year!&lt;/p&gt;
+&lt;p&gt;Честита Нова Година!&lt;/p&gt;
+&lt;p&gt;Bonne année!&lt;/p&gt;
+&lt;p&gt;Schéint Neit Joer!&lt;/p&gt;
+&lt;p&gt;🥂🍷🍸🍾🍹&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Post Two</title>
+		<link href="https://templ.contentedweb.com/posts/2021/post-two/"/>
+		<updated>2021-12-23T08:00:01Z</updated>
+		<id>https://templ.contentedweb.com/posts/2021/post-two/</id>
+		<content type="html">&lt;h2&gt;Travelling&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You fly off to a strange land, eagerly abandoning all the comforts of home, and then expend vast quantities of time and money in a largely futile effort to recapture the comforts that you wouldn&#39;t have lost if you hadn&#39;t left home in the first place.&lt;br /&gt;
+Bill Bryson, Neither Here Nor There&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you don&#39;t know where you&#39;re going, you&#39;ll end up someplace else.&lt;br /&gt;
+Yogi Bera&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is no such thing as bad weather, only bad clothing.&lt;br /&gt;
+An old Tibetian saying&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not all those who wander are lost.&lt;br /&gt;
+J.R.R.Tolkien, Fellowship of the Ring&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Post One</title>
+		<link href="https://templ.contentedweb.com/posts/2020/post-one/"/>
+		<updated>2020-12-25T00:00:00Z</updated>
+		<id>https://templ.contentedweb.com/posts/2020/post-one/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://templ.contentedweb.com/assets/images/wheel.png&quot; alt=&quot;Frosty trees seen through a large hamster wheel.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Christmas Day, 2020&lt;/p&gt;
+---
+</content>
+	</entry>
+</feed>

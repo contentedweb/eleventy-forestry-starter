@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>11ty Forestry GH pages</title>
+    <title>Archive</title>
     <meta name="description" content="11ty Forestry GH pages" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="11ty Forestry GH pages" />
     <meta property="og:description" content="A started site based on Eleventy, Forestry and GitHub pages" />
-    <meta property="og:url" content="https://templ.contentedweb.com/" />
+    <meta property="og:url" content="https://templ.contentedweb.com/archive/" />
     <meta property="og:site_name" content="11ty Forestry GH pages" />
     <meta property="og:image" content="" />
-    <link rel="canonical" href="https://templ.contentedweb.com/" />
+    <link rel="canonical" href="https://templ.contentedweb.com/archive/" />
     <link href="" rel="me" />
     <link rel="icon" href="/assets/images/cwfav.png" type="image.png" size="130x130">
     <link rel="stylesheet" href="/assets/css/style.css" media="all">
@@ -44,7 +44,7 @@
                         <li >
                             <a href="/pages/about/">About</a>
                         </li>
-                        <li >
+                        <li  class="current">
                             <a href="/archive/">Archive</a>
                         </li>
                     </ul>
@@ -55,19 +55,32 @@
     <main id="site-content" >
        <article>
         
+          <header>
+              
+                  <h1>Archive</h1> 
+              
+              
+          </header>
         
-<article>
-    <h1>Welcome!</h1>
-    <p>This is a starter site for Eleventy. I hope you can find it useful.</p>
-</article>
+        
+<nav class="paging" aria-label="pagination">
+  <ul>
+    <li>First</li>
+    <li>Previous</li>
+    <li>Next</li>
+    <li>Last</li>
+  </ul>
+</nav>
+
+<p>All posts, listed in reverse chronological order. Alternatively here is a <a href="/archive/all-posts/">list of all my posts</a> on one page.</p>
+  
 
 <div class="posts-list">
   
-    
       <article>
         <header>
           <h2><a href="/posts/2022/post-four/">Another post</a></h2>
-          <time datetime="2022-02-01 00-00-00">
+          <time datetime="Invalid DateTime">
             <span class="date-day">1</span> 
             <span class="date-month">February</span>, 
             <span class="date-year">2022</span>
@@ -79,13 +92,11 @@
         
       </article>
       <hr aria-hidden="true"/>
-    
   
-    
       <article>
         <header>
           <h2><a href="/posts/2022/post-three/">Happy New Year</a></h2>
-          <time datetime="2022-01-01 00-01-00">
+          <time datetime="Invalid DateTime">
             <span class="date-day">1</span> 
             <span class="date-month">January</span>, 
             <span class="date-year">2022</span>
@@ -101,13 +112,11 @@
         
       </article>
       <hr aria-hidden="true"/>
-    
   
-    
       <article>
         <header>
           <h2><a href="/posts/2021/post-two/">Post Two</a></h2>
-          <time datetime="2021-12-23 08-00-01">
+          <time datetime="Invalid DateTime">
             <span class="date-day">23</span> 
             <span class="date-month">December</span>, 
             <span class="date-year">2021</span>
@@ -135,13 +144,11 @@ J.R.R.Tolkien, Fellowship of the Ring</p>
         
       </article>
       <hr aria-hidden="true"/>
-    
   
-    
       <article>
         <header>
           <h2><a href="/posts/2020/post-one/">Post One</a></h2>
-          <time datetime="2020-12-25 00-00-00">
+          <time datetime="Invalid DateTime">
             <span class="date-day">25</span> 
             <span class="date-month">December</span>, 
             <span class="date-year">2020</span>
@@ -156,8 +163,17 @@ J.R.R.Tolkien, Fellowship of the Ring</p>
       </article>
       <hr aria-hidden="true"/>
     
-    
 </div> 
+
+
+<nav class="paging" aria-label="pagination">
+  <ul>
+    <li>First</li>
+    <li>Previous</li>
+    <li>Next</li>
+    <li>Last</li>
+  </ul>
+</nav>
  
       </article>
     </main>
@@ -177,6 +193,6 @@ J.R.R.Tolkien, Fellowship of the Ring</p>
             </span>
         </div>
     </footer>
-    <!-- Current page: / -->
+    <!-- Current page: /archive/ -->
   </body>
 </html>

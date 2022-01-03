@@ -1,20 +1,20 @@
 {
-  "title": "ContentedWeb",
-  "url": "https://www.contentedweb.com/",
+  "title": "11ty Forestry GH pages",
+  "url": "https://templ.contentedweb.com/",
   "language": "en",
-  "description": "Web accessibility, photos, travel and random noise",
-  "startYear": "1998",
+  "description": "A started site based on Eleventy, Forestry and GitHub pages",
+  "startYear": "2021",
   "relme": "https://github.com/contentedweb",
   "feed": {
-    "subtitle": "Web accessibility, photos, travel and random noise",
+    "subtitle": "A started site for Eleventy with Forestry added in",
     "filename": "index.xml",
     "path": "/feed/index.xml",
-    "id": "https://www.contentedweb.com/"
+    "id": "https://templ.contentedweb.com/"
   },
   "author": {
-    "name": "ContentedWeb",
+    "name": "11ty Forestry GH pages",
     "email": "admin@contentedweb.com",
-    "url": "https://www.contentedweb.com/about/"
+    "url": "https://templ.contentedweb.com/about/"
   },
   "css": {
     "headerBgColor": "#F2E3A9",

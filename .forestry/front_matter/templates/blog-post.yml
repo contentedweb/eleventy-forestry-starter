@@ -1,0 +1,23 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Page Title
+- name: date
+  type: text
+  config:
+    required: true
+    min: 10
+    max: 19
+  label: Date
+  description: '"yyyy-mm-ddThh:mm:ss"<br>This format is required for the <a href="https://www.11ty.dev/docs/dates/"
+    title="" target="_blank">Eleventy front matter</a> to have time in it as well,
+    following the <a href="https://moment.github.io/luxon/#/parsing?id=iso-8601" title=""
+    target="_blank">Luxon fromISO parser rules</a>'
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+pages:

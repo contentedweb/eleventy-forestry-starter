@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://templ.contentedweb.com/posts/2020/post-one/</loc>
+    <lastmod>2020-12-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/posts/2021/post-two/</loc>
+    <lastmod>2021-12-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/posts/2022/post-three/</loc>
+    <lastmod>2022-01-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/admin/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/all-posts/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tagged/general/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tagged/photos/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tagged/travel/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tagged/postsbyyear/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tags/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/pages/about/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/pages/accessibility/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/posts/2022/post-four/</loc>
+    <lastmod>2022-02-01</lastmod>
+  </url>
+</urlset>

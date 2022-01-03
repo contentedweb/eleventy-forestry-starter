@@ -17,20 +17,3 @@ title: All posts
     {% endfor %}
   </ul>
 {% endfor %}
-
-{#
-<ol reversed>
-{% for post in collections.posts | reverse %}
-  <li>
-    <a href="{{ post.url | url }}" class="post-title">{{ post.data.title }};</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}"> written on {{ post.date | readableDate }}</time>
-
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-
-  </li>
-{% endfor %}
-</ol>
-#}

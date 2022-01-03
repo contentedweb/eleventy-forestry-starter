@@ -6,7 +6,7 @@ Eleventy generated static site.
 1. DONE Enable workflows on the site (disabled by default by Github for security reasons)
 1. DONE Figure out tokens - build can't run using the forked token - using github token so no need to setup personal one.
 2. Luck into Forestry "auto setup"
-    1. This should include some navigation menus (using eleveny navigation)
+    1. This should include some navigation menus (using eleventy navigation)
 
 ## How to setup
 
@@ -14,5 +14,6 @@ Eleventy generated static site.
 1. Fork this starter site 
 1. Get a forestry account
 1. Point forestry to the forked site
-1. Setup Github pages
-2. Edit metadata.js file using online editor?
+2. Forestry "Deploy admin" in Settings in order to have domain/admin working otherwise it uses the wrong site id. So don't need the admin folder in the starter site
+3. Setup Github pages
+4. Edit metadata.js file using online editor?

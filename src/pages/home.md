@@ -1,9 +1,9 @@
 ---
-layout: "layouts/home.njk"
+layout: layouts/home.njk
 title: Homepage
 permalink: "/"
----
 
+---
 # Welcome!
 
-This is a starter site for Eleventy. I hope you can find it useful.
+This is a starter site for Eleventy using Forestry and GitHub pages. I hope you can find it useful.

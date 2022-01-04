@@ -47,4 +47,3 @@ fields:
   showOnly:
     value: bottom
   description: This setting will have no effect if menu location is set to "none".
-

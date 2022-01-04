@@ -1,6 +1,6 @@
 ---
 layout: "layouts/home.njk"
-title: About this site
+title: Homepage
 permalink: "/"
 ---
 

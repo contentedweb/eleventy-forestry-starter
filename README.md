@@ -17,7 +17,7 @@ Eleventy generated static site.
 ## How to setup
 1. Get a GitHub account
 1. Fork this starter site
-1. Enable workflows on the site (disabled by default by Github for security reasons after a fork)
+1. Enable workflows on the site (disabled by default by Github for security reasons after a fork). Also for pruner workflow.
 1. If not going to use own domain name, need to rename repo to "username.github.io" so that it is served from the the root and not "https://username.github.io/repo-name" 
 1. Get a forestry account
 1. Point forestry to the forked site

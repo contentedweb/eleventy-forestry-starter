@@ -14,4 +14,4 @@ permalink: /archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }
 
 All posts, listed in reverse chronological order. 
 
-Alternatively, <a href="/archive/all-posts/">view all posts</a> or <a href="/archive/tags/">browse posts by tag</a>
+Alternatively, <a href="/archive/all-posts/">view all posts by year</a> or <a href="/archive/tags/">browse posts by tag</a>

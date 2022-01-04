@@ -4,10 +4,7 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
-- type: list
-  name: tags
-  label: tags
+  label: Date

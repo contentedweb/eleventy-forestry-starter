@@ -28,3 +28,4 @@ Eleventy generated static site.
     1. If deploying to username.github.io => branch = "gh-pages", folder = "root"
     1. If deploying to custom domain? It seems like the above should always work.
 4. Edit file in data folder to setup site name and URL.
+    

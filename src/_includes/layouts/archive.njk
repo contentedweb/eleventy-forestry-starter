@@ -36,6 +36,12 @@ layout: layouts/base.njk
         {% else %}
           {{ post.templateContent | safe}}
         {% endif %}
+        <div class="tagged">Tagged: 
+          {%- for tag in post.data.tags | filterTagList -%}
+          {%- set tagUrl %}/archive/tagged/{{ tag | slug }}/{% endset -%}
+          <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+          {%- endfor %}
+        </div>
       </article>
       <hr aria-hidden="true"/>
   {% endfor %}  

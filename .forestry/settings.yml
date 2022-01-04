@@ -17,7 +17,7 @@ sections:
   create: all
   match: "**/*.md"
   templates:
-  - blog-post
+  - page
 upload_dir: src/assets/images
 public_path: "/assets/images"
 front_matter_path: ''

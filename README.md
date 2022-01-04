@@ -20,7 +20,9 @@ Eleventy generated static site.
 1. Enable workflows on the site (disabled by default by Github for security reasons after a fork). Also for pruner workflow.
 1. If not going to use own domain name, need to rename repo to "username.github.io" so that it is served from the the root and not "https://username.github.io/repo-name" 
 1. Get a forestry account
-1. Point forestry to the forked site
+1. Create site using 11ty and GitHub
+1. Point forestry to the forked site, repo "username.github.io", master branch 
+1. Mark all setup steps as done (no need to configure anything) and mark setup as complete.
 2. Forestry "Deploy admin" in Settings in order to have domain/admin working otherwise it uses the wrong site id. So don't need the admin folder in the starter site
 3. Setup Github pages
     1. If deploying to username.github.io => branch = "gh-pages", folder = "root"

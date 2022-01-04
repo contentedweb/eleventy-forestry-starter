@@ -8,7 +8,7 @@ sections:
   path: src/posts
   label: Posts
   create: all
-  match: "**/*"
+  match: "**/*.md"
   templates:
   - blog-post
 - type: directory
@@ -18,6 +18,12 @@ sections:
   match: "**/*.md"
   templates:
   - page
+- type: directory
+  path: src/_data
+  label: Data
+  create: all
+  match: "**/*.json"
+  new_doc_ext: json
 upload_dir: src/assets/images
 public_path: "/assets/images"
 front_matter_path: ''

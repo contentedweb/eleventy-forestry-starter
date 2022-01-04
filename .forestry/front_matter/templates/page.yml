@@ -5,6 +5,46 @@ fields:
 - type: text
   name: title
   label: Title
-- type: datetime
-  name: date
-  label: Date
+  description: The title of the page
+- name: menuLocation
+  type: select
+  default: none
+  config:
+    required: false
+    options:
+    - none
+    - top
+    - bottom
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Menu location
+  description: 'If this page should be listed in a menu choose which one. Select "none"
+    if it should not be in a menu. '
+- name: eleventyNavigation
+  type: field_group
+  config: {}
+  fields:
+  - name: key
+    type: text
+    config:
+      required: false
+    label: Title
+    description: The text to use for this page in the menu
+  - name: order
+    type: number
+    label: Order
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  label: Menu
+  showOnly:
+    value: bottom
+  description: This setting will have no effect if menu location is set to "none".
+

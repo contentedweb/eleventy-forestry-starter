@@ -15,7 +15,7 @@ sections:
   path: src/pages
   label: Pages
   create: all
-  match: "**/*"
+  match: "**/*.md"
   templates:
   - blog-post
 upload_dir: src/assets/images

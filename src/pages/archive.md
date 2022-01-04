@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 999
 pagination:
   data: collections.posts 
-  size: 2
+  size: 20
   reverse: true
   alias: posts
 permalink: /archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}

@@ -2,16 +2,16 @@
 Eleventy generated static site.
 
 ## ToDos
-1. Look into Forestry "auto setup"
-    1. DONE Basic pots and pages are done
-    1. This should include some navigation menus (using eleventy navigation)
-        1. This would mean a pages template with fields for navigation menu order
-        1. No parent - only for simple one level menus as this is a simple site!
-        1. (Only needed for complex menus) Also means some CSS styling to deal with it.
+1. Anything else?
 
 ## Done
 1. DONE Figure out tokens - build can't run using the forked token - using github token so no need to setup personal one.
-4. DONE Look into default GH pages (ie username.github.io) so that those without a domain name can get started immediately
+1. DONE Look into default GH pages (ie username.github.io) so that those without a domain name can get started immediately
+1. DONE Look into Forestry "auto setup"
+    1. DONE Basic pots and pages are done
+    1. DONE This should include some navigation menus (using eleventy navigation)
+        1. This would mean a pages template with fields for navigation menu order
+        1. No parent - only for simple one level menus as this is a simple site!
 
 ## How to setup
 1. Get a GitHub account

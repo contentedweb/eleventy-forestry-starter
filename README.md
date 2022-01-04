@@ -17,10 +17,10 @@ Eleventy generated static site.
 ## How to setup
 1. Get a GitHub account
 1. Fork this starter site
-1. Enable workflows on the site (disabled by default by Github for security reasons after a fork)
+1. Enable workflows on the site (disabled by default by Github for security reasons after a fork). Also for pruner workflow.
 1. If not going to use own domain name, need to rename repo to "username.github.io" so that it is served from the the root and not "https://username.github.io/repo-name" 
 1. Get a forestry account
 1. Point forestry to the forked site
-3. Setup Github pages
 2. Forestry "Deploy admin" in Settings in order to have domain/admin working otherwise it uses the wrong site id. So don't need the admin folder in the starter site
+3. Setup Github pages (branch master, folder "/docs")
 4. Edit metadata.js file using online editor?

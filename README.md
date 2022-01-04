@@ -2,6 +2,7 @@
 Eleventy generated static site.
 
 ## ToDos
+1. Set eleventy build action to run nightly by default?
 1. Anything else?
 
 ## Done
@@ -23,4 +24,3 @@ Eleventy generated static site.
 3. Setup Github pages
 2. Forestry "Deploy admin" in Settings in order to have domain/admin working otherwise it uses the wrong site id. So don't need the admin folder in the starter site
 4. Edit metadata.js file using online editor?
-5. Set eleventy build action to run nightly by default

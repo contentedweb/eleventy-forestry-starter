@@ -1,6 +1,7 @@
 ---
 layout: layouts/archive.njk
 title: Archive
+menuLocation: top
 eleventyNavigation:
   key: Archive
   order: 999

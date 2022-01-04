@@ -1,5 +1,6 @@
 ---
 title: About this site
+menuLocation: top
 eleventyNavigation:
   key: About
   order: 200

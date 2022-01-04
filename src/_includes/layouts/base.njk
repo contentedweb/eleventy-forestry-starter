@@ -63,7 +63,7 @@
             <div class="header-nav">
                 <nav>
                     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-                    {% set navPages = collections.all | eleventyNavigation %}
+                    {% set navPages = collections.all | menuFilter("top") | eleventyNavigation %}
                     <ul>
                     {%- for entry in navPages %}
                         <li {% if page.url.startsWith(entry.url) %} class="current"{% endif %}>
@@ -86,9 +86,16 @@
                 <span class="emojis">👍</span>  
             </span> 
             <span class="power">
-            <img src="/assets/images/rss-logo.png" alt=""/>&nbsp;<a class="a11y-statement" href="/feed/">RSS</a>            
-            &nbsp;&nbsp;&nbsp;
-            <a class="a11y-statement" href="/pages/accessibility/">Accessibility Statement</a>            
+            <div class="footer-nav">
+                <nav>
+                    <img src="/assets/images/rss-logo.png" alt=""/>&nbsp;<a class="a11y-statement" href="/feed/">RSS</a>
+                    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+                    {% set navPages = collections.all | menuFilter("bottom") | eleventyNavigation %}
+                    {%- for entry in navPages %}
+                            | <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                    {%- endfor %}
+                </nav>
+            </div>
             <br/>
             Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
             </span>

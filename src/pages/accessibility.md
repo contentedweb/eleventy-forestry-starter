@@ -1,5 +1,9 @@
 ---
 title: Accessibility Statement
+menuLocation: bottom
+eleventyNavigation:
+  key: Accessibility
+  order: 100
 ---
 
 I am committed to making and keeping its websites accessible, in accordance with the [Web Accessibiliy Directive of the European Union](https://ec.europa.eu/digital-single-market/en/web-accessibility).

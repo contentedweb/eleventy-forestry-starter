@@ -46,6 +46,12 @@ module.exports = function(eleventyConfig) {
   
   //https://11ty.rocks/eleventyjs/dates/
   eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addFilter('menuFilter', function(collection, menuLocation) {
+    if (!menuLocation) return collection;
+      const filtered = collection.filter(item => item.data.menuLocation == menuLocation)
+      return filtered;
+  });
   //^^^^^^^^^^^^^
 
 

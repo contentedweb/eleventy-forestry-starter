@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- See: https://www.w3schools.com/css/css_rwd_viewport.asp-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About this site</title>
+    <title>Homepage</title>
     <meta name="description" content="Kalinka" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta property="og:locale" content="en_GB" />
@@ -45,9 +45,6 @@
                             <a href="/pages/about/">About</a>
                         </li>
                         <li >
-                            <a href="/pages/another-page/">Page</a>
-                        </li>
-                        <li >
                             <a href="/archive/">Archive</a>
                         </li>
                     </ul>
@@ -59,7 +56,7 @@
         
 <article>
     <h1>Welcome!</h1>
-<p>This is a starter site for Eleventy. I hope you can find it useful.</p>
+<p>This is a starter site for Eleventy using Forestry and GitHub pages. I hope you can find it useful.</p>
 
 </article>
 
@@ -77,7 +74,9 @@
         </header>
         <p>Write your content here.</p>
 
-      </article>
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a>
+        </div>
+      </article>      
       <hr aria-hidden="true"/>
     
   
@@ -97,7 +96,9 @@
 <p>Schéint Neit Joer!!!</p>
 <p>🥂🍷🍸🍾🍹</p>
 
-      </article>
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a>
+        </div>
+      </article>      
       <hr aria-hidden="true"/>
     
   
@@ -129,7 +130,9 @@ An old Tibetian saying</p>
 J.R.R.Tolkien, Fellowship of the Ring</p>
 </blockquote>
 
-      </article>
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/travel/" class="post-tag">travel</a>
+        </div>
+      </article>      
       <hr aria-hidden="true"/>
     
   
@@ -147,7 +150,9 @@ J.R.R.Tolkien, Fellowship of the Ring</p>
 <p>Christmas Day, 2020</p>
 ---
 
-      </article>
+        <div class="tagged">Tagged:<a href="/archive/tagged/general/" class="post-tag">general</a><a href="/archive/tagged/photos/" class="post-tag">photos</a>
+        </div>
+      </article>      
       <hr aria-hidden="true"/>
     
     
@@ -163,9 +168,13 @@ J.R.R.Tolkien, Fellowship of the Ring</p>
                 <span class="emojis">👍</span>  
             </span> 
             <span class="power">
-            <img src="/assets/images/rss-logo.png" alt=""/>&nbsp;<a class="a11y-statement" href="/feed/">RSS</a>            
-            &nbsp;&nbsp;&nbsp;
-            <a class="a11y-statement" href="/pages/accessibility/">Accessibility Statement</a>            
+            <div class="footer-nav">
+                <nav>
+                    <img src="/assets/images/rss-logo.png" alt=""/>&nbsp;<a class="a11y-statement" href="/feed/">RSS</a>
+                    
+                            | <a href="/pages/accessibility/">Accessibility</a>
+                </nav>
+            </div>
             <br/>
             Powered with HTML, CSS and <a href="https://www.a11yproject.com/">a11y</a>.
             </span>

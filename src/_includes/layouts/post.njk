@@ -17,21 +17,22 @@ templateClass: tmpl-post
   {{ content | safe }} 
 
   <hr>
-  <p>Tagged: 
+  <div class="tagged">Tagged: 
     {%- for tag in tags | filterTagList -%}
     {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
     <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {%- endfor %}
-  </p>
+  </div>
 
   {%- if collections.posts %}
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
   {%- if nextPost or previousPost %}
-  <ul>
-    {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-    {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-  </ul>
+  <div class="prev-next">
+    {%- if nextPost %}<a class="next" rel="next" href="{{ nextPost.url | url }}">« Newer</a>{% endif %}
+    {%- if nextPost and previousPost%} | {% endif %}
+    {%- if previousPost %}<a class="prev" rel="prev" href="{{ previousPost.url | url }}">Older »</a>{% endif %}
+  </div>
   {%- endif %}
   {%- endif %}
 </article>

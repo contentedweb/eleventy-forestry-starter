@@ -2,7 +2,7 @@
 title: Another page
 eleventyNavigation:
   key: Page
-  order: 200
+  order: 300
 
 ---
 ## Some Text

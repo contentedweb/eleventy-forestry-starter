@@ -1,7 +1,7 @@
 ---
-layout: layouts/base.njk
+title: Tags
+layout: layouts/page.njk
 ---
-<h1>Tags</h1>
 
 {% for tag in collections.tagList %}
   {% set tagUrl %}/archive/tagged/{{ tag | slug }}/{% endset %}

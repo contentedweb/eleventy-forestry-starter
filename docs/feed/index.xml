@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>11ty Forestry GH pages</title>
+	<title>Kalinka</title>
 	<subtitle>A starter site for Eleventy with Forestry added in</subtitle>
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
@@ -9,7 +9,7 @@
 	<updated>2022-02-01T00:00:00Z</updated>
 	<id>https://templ.contentedweb.com/</id>
 	<author>
-		<name>11ty Forestry GH pages</name>
+		<name>Kalinka</name>
 		<email>admin@contentedweb.com</email>
 	</author>
 	

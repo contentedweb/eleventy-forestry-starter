@@ -1,17 +1,17 @@
 ---
 layout: layouts/archive.njk
 title: Archive
-permalink: /archive/
 eleventyNavigation:
   key: Archive
-  order: 300
+  order: 999
 pagination:
   data: collections.posts 
-  size: 20
+  size: 2
   reverse: true
   alias: posts
+permalink: /archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 ---
 
-{% if page.url == pagination.href.first %}
-All posts, listed in reverse chronological order. Alternatively here is a <a href="/archive/all-posts/">list of all my posts</a> on one page. 
-{% endif %}
+All posts, listed in reverse chronological order. 
+
+Alternatively, <a href="/archive/all-posts/">view all posts</a> or <a href="/archive/tags/">browse posts by tag</a>

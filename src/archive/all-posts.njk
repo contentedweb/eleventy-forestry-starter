@@ -1,11 +1,7 @@
 ---
-layout: layouts/home.njk
+layout: layouts/page.njk
 title: All posts
 ---
-
-{% if 1 == 1 %}
-<p>These are all my posts, grouped by year.</p>
-{% endif %}
 
 {% for year, yearPosts in collections.postsByYear %}
   <h2 class="all-posts-list">{{ year }}</h2>

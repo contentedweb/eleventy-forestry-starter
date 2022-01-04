@@ -457,6 +457,10 @@ main ul, main ol {
     margin-top: 0;
 }
 
+div.tagged, div.prev-next {
+    text-align: right;
+}
+
 .webmentions {
     margin-top: 50px;
 }

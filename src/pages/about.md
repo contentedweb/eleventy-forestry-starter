@@ -1,9 +1,8 @@
 ---
-layout: layouts/base.njk
 title: About this site
 eleventyNavigation:
   key: About
-  order: "200"
+  order: 200
 
 ---
 ## Introduction

@@ -17,22 +17,12 @@
   </url>
   
   <url>
-    <loc>https://templ.contentedweb.com/</loc>
-    <lastmod>2022-01-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://templ.contentedweb.com/admin/</loc>
-    <lastmod>2022-01-03</lastmod>
-  </url>
-  
-  <url>
     <loc>https://templ.contentedweb.com/archive/all-posts/</loc>
     <lastmod>2022-01-03</lastmod>
   </url>
   
   <url>
-    <loc>https://templ.contentedweb.com/archive/</loc>
+    <loc>https://templ.contentedweb.com/archive/archives/</loc>
     <lastmod>2022-01-03</lastmod>
   </url>
   
@@ -69,6 +59,26 @@
   <url>
     <loc>https://templ.contentedweb.com/pages/accessibility/</loc>
     <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/admin/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/pages/another-page/</loc>
+    <lastmod>2022-01-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/</loc>
+    <lastmod>2022-01-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/</loc>
+    <lastmod>2022-01-04</lastmod>
   </url>
   
   <url>

@@ -2,11 +2,11 @@
   "title": "11ty Forestry GH pages",
   "url": "https://templ.contentedweb.com/",
   "language": "en",
-  "description": "A started site based on Eleventy, Forestry and GitHub pages",
+  "description": "A starter site based on Eleventy, Forestry and GitHub pages",
   "startYear": "2021",
   "relme": "https://github.com/contentedweb",
   "feed": {
-    "subtitle": "A started site for Eleventy with Forestry added in",
+    "subtitle": "A starter site for Eleventy with Forestry added in",
     "filename": "index.xml",
     "path": "/feed/index.xml",
     "id": "https://templ.contentedweb.com/"

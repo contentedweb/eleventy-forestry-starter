@@ -53,7 +53,7 @@
         <div class="header-area">
             <div class="header-title">
               <address class="h-card bio">
-                <img class="u-photo" src="/assets/images/cw.jpg" alt="" />
+                <img class="u-photo" src="/assets/images/logo.jpg" alt="" />
                 <div class="p-name sitetitle">
                     <a href="{{ '/' | url }}" class="u-url">{{ metadata.title }}</a>
                 </div>
@@ -76,25 +76,7 @@
         </div>
     </header>
     <main id="site-content" {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-       <article>
-        {% if title or (tags and "posts" in tags) %}
-          <header>
-              {% if title %}
-                  <h1>{{ title }}</h1> 
-              {% endif %}
-              {% if tags and "posts" in tags %}
-                  <h2 class="published">
-                      <time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">
-                          <span class="date-day">{{ page.date.getDate() }}</span> 
-                          <span class="date-month">{{ page.date.toLocaleString('default', { month: 'long' }) }}</span>, 
-                          <span class="date-year">{{ page.date.getFullYear() }}</span>
-                      </time>
-                  </h2>
-              {% endif %}
-          </header>
-        {% endif %}
         {{ content | safe }} 
-      </article>
     </main>
     <footer>
         <div class="footer-area">

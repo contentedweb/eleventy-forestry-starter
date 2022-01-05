@@ -1,4 +1,24 @@
 ---
 label: Data
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: theme
+  type: select
+  default: none
+  config:
+    required: true
+    options:
+    - olden
+    - sky
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Theme

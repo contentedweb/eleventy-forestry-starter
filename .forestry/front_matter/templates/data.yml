@@ -22,3 +22,5 @@ fields:
       file: 
       path: 
   label: Theme
+pages:
+- src/_data/metadata.json

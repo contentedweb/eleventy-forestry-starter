@@ -5,7 +5,7 @@
   "description": "A starter site based on Eleventy, Forestry and GitHub pages",
   "startYear": "2021",
   "relme": "https://github.com/contentedweb",
-  "theme": "olden",
+  "theme": "sky",
   "feed": {
     "subtitle": "A starter site for Eleventy with Forestry added in",
     "filename": "index.xml",

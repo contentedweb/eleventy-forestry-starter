@@ -21,9 +21,11 @@ sections:
 - type: directory
   path: src/_data
   label: Data
-  create: all
+  create: none
   match: "**/*.json"
   new_doc_ext: json
+  templates:
+  - data
 upload_dir: src/assets/images
 public_path: "/assets/images"
 front_matter_path: ''

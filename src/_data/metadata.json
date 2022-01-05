@@ -2,10 +2,10 @@
   "title": "Kalinkasov",
   "url": "https://templ.contentedweb.com/",
   "language": "en",
-  "description": "A starter site based on Eleventy, Forestry and GitHub pages",
-  "startYear": "2021",
+  "description": "About ladybirds",
+  "startYear": 2021,
   "relme": "https://github.com/contentedweb",
-  "theme": "none",
+  "theme": "olden",
   "feed": {
     "subtitle": "A starter site for Eleventy with Forestry added in",
     "filename": "index.xml",

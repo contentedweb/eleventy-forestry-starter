@@ -17,7 +17,7 @@ sections:
   create: all
   match: "**/*.md"
   templates:
-  - page
+  - data
 - type: directory
   path: src/_data
   label: Data

@@ -7,6 +7,21 @@ fields:
   config:
     required: true
   label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: startYear
+  type: number
+  label: Copyright start
+  description: Year copyright starts on
+  default: 2022
+  required: true
+  config:
+    min: 1900
+    max: 
+    step: 
 - name: theme
   type: select
   default: none
@@ -22,5 +37,27 @@ fields:
       file: 
       path: 
   label: Theme
+- name: author
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Your name
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  - name: url
+    type: text
+    config:
+      required: false
+    label: About you
+    description: Link to information about you
+  label: Author
+  description: Info about yourself
 pages:
 - src/_data/metadata.json

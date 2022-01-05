@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>https://templ.contentedweb.com/archive/tagged/general/</loc>
-    <lastmod>2022-01-05</lastmod>
-  </url>
-  
-  <url>
     <loc>https://templ.contentedweb.com/archive/tagged/postsbyyear/</loc>
     <lastmod>2022-01-05</lastmod>
   </url>
@@ -43,6 +38,11 @@
   
   <url>
     <loc>https://templ.contentedweb.com/archive/tagged/photos/</loc>
+    <lastmod>2022-01-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://templ.contentedweb.com/archive/tagged/general/</loc>
     <lastmod>2022-01-05</lastmod>
   </url>
   

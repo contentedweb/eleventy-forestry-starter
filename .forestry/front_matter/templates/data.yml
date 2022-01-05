@@ -59,5 +59,24 @@ fields:
     description: Link to information about you
   label: Author
   description: Info about yourself
+- name: feed
+  type: field_group
+  config: {}
+  fields:
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Description
+    description: Leave blank to take the description from the site
+  - name: id
+    type: text
+    config:
+      required: false
+    label: URL
+    description: Leave blank to you the same URL as for the site. Or customise it
+      (https://www.mysite.com/feed)
+  label: RSS Feed
+  description: Info displayed in your RSS feed
 pages:
 - src/_data/metadata.json

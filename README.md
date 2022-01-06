@@ -1,5 +1,5 @@
 # Eleventy Starter
-Eleventy generated static site, hosted on GitHub and managed through Forestry.
+Eleventy generated static site, managed through Forestry and hosted on GitHub Pages.
 
 ## How to setup
 

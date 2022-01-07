@@ -10,11 +10,15 @@ eleventyNavigation:
 
 This is a basic starter site for [Eleventy](https://www.11ty.dev/), with [Forestry](https://forestry.io/) for editing and [GitHub Pages](https://pages.github.com/) for hosting baked in.
 
-The site is largely based off the [Eleventy starter site](https://github.com/11ty/eleventy-base-blog), which has been adapted and styled to be a simple and basic blogging site. The aim is to make it as easy as possible for technical users to set up a blogging using a static site generator, in much the same way the might get started using [Wordpress](https://wordpress.com/). Of course it can in no way compete with Wordpress on functionality, not even a little. That was not the aim.  Instead the focus is on speed and simplicity. Nothing can beat the speed of simple static pages.
+The site is largely based off the [Eleventy starter site](https://github.com/11ty/eleventy-base-blog), which has been adapted and styled to be a simple and basic blogging site. The aim is to make it as easy as possible for non-technical users to set up a blog using a static site generator, in much the same way the might get started using [Wordpress](https://wordpress.com/). Of course it can in no way compete with Wordpress on functionality, not even a little. That was not the aim.  Instead the focus is on speed and simplicity. Nothing can beat the speed of simple static pages.
 
 The idea for this site comes from my trials and tribulations of moving from a Wordpress hosted site to a site built by Eleventy: "a simpler static site generator". Eleventy is indeed a great tool, but you do need quite a bit of technical knowhow to get a site configured, hosted and editable through a user friendly interface.
 
-After jumping around between various online services to manage my blog I settled on Forestry and GitHub Pages. There are many other services available, but the combination of these two was the simplest for me. I had two aims when choosing services: keep it simple and keep it simple. Since the site's code is anyway hosted on GitHub,
+After jumping around between various online services to manage my blog I settled on Forestry and GitHub Pages. There are many other services available, but the combination of these two was the simplest for me. I had two aims when choosing services: keep it simple and keep it simple. 
+
+For editing I chose Forestry because for a simple site, being managed by one person it offered the best experience. There are [many other editing tools available](https://jamstack.org/headless-cms/), but most were too complex for my needs or had other issues, such as lack of eleventy support.
+
+For hosting, since the site's code is anyway hosted on GitHub and GitHub offers a basic hosting service, it made sense to use GitHub pages to host the site. 
 
 is to keep it simple, usable and accessible.
 

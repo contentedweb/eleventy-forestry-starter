@@ -20,4 +20,4 @@ For editing I chose Forestry because for a simple site, being managed by one per
 
 For hosting, since the site's code is anyway hosted on GitHub and GitHub offers a basic hosting service, it made sense to use GitHub pages to host the site. 
 
-It includes some basic the themes so you can easily change the look and feel of the site. Of course since it is all open source and hosted in GitHub you can make more complex styling changes directly in the CSS code and templates.
+The kit includes some basic the themes so you can easily change the look and feel of the site. Of course since it is all open source and hosted in GitHub you can make more complex styling changes directly in the CSS code and Eleventy templates.

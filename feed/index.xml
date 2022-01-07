@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Kalinka</title>
-	<subtitle>A starter site for Eleventy with Forestry added in</subtitle>
+	<subtitle>An eleventy based basic blogging site with Forestry and GitHub Pages baked in  </subtitle>
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>
 	<link href="https://templ.contentedweb.com/" rel="alternate" type="text/html"/>

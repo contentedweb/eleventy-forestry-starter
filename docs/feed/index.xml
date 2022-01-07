@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed/pretty-feed-v3.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Kalinkasov</title>
+	<title>Kalinka</title>
 	<subtitle>A starter site for Eleventy with Forestry added in</subtitle>
 	
 	<link href="https://templ.contentedweb.com/feed/index.xml" rel="self"/>

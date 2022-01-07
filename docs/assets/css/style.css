@@ -161,7 +161,7 @@ header div.sitetitle {
     display: inline;
     margin: 0;
     margin-right:0;
-    margin-left:15px;
+    /*margin-left:15px;*/
     color: var(--header-title-color);
     font-weight: bold;
     font-size: 2.7em;
@@ -170,6 +170,14 @@ header div.sitetitle {
 
 header div.sitetitle a:visited, header div.sitetitle a {
     color: var(--header-title-color);
+}
+
+header div.header-title {
+/*
+    white-space: nowrap;
+    overflow-wrap: break-word;
+*/
+    flex-grow: 100;
 }
 
 header nav {
@@ -599,10 +607,10 @@ footer span.copy {
     }
 }
 
-
+/*
     /* =========
    MAX WIDTH
-   =========  */
+   =========  
 @media (max-width: 700px) { 
     header div.sitetitle {
         margin-right:40%;
@@ -626,3 +634,4 @@ footer span.copy {
         margin-right:5%;
     }
 }
+*/

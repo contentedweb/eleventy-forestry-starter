@@ -2,6 +2,7 @@
 layout: layouts/home.njk
 title: Homepage
 permalink: "/"
+theme: olden
 
 ---
 # Welcome!

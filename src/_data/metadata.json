@@ -2,12 +2,12 @@
   "title": "Kalinka",
   "url": "https://templ.contentedweb.com/",
   "language": "en",
-  "description": "About ladybirds",
-  "startYear": 2005,
+  "description": "An eleventy based basic blogging site with Forestry and GitHub Pages baked in  ",
+  "startYear": 2021,
   "relme": "https://github.com/contentedweb",
   "theme": "olden",
   "feed": {
-    "subtitle": "A starter site for Eleventy with Forestry added in",
+    "subtitle": "An eleventy based basic blogging site with Forestry and GitHub Pages baked in  ",
     "filename": "index.xml",
     "path": "/feed/index.xml",
     "id": "https://templ.contentedweb.com/"

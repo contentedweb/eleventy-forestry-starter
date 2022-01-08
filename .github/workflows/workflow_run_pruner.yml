@@ -58,7 +58,8 @@ jobs:
 
           const workflows = [
             'gh-pages.yml',
-            'workflow_run_pruner.yml'
+            'workflow_run_pruner.yml',
+            'pages-build-deployment.yml'
           ]
 
           let runs_to_delete = [];

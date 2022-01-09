@@ -35,10 +35,10 @@ Once you have the site being hosted on GitHub Pages, you should add Forestry. Th
 Happy blogging!
 
 ## ToDos
-1. Set eleventy build action to run nightly by default?
 1. Anything else?
 
 ## Done
+1. DONE Set eleventy build action to run nightly by default?
 1. DONE Basic theming
 1. DONE Figure out tokens - build can't run using the forked token - using github token so no need to setup personal one.
 1. DONE Look into default GH pages (ie username.github.io) so that those without a domain name can get started immediately

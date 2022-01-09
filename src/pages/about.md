@@ -6,16 +6,8 @@ eleventyNavigation:
   order: 200
 
 ---
-## Introduction
+# About this started kit
 
-Introduce yourself.
+This is a basic starter kit for [Eleventy](https://www.11ty.dev/), with [Forestry](https://forestry.io/) for editing and [GitHub Pages](https://pages.github.com/) for hosting baked in.
 
-## About this site
-
-Introduce the site
-
-## Other
-
-Add some useful links:
-
-* [The RSS feed of all my posts](/feed/)
+For more information on how to get started, see the [how to site](https://help.contentedweb.com).

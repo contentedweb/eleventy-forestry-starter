@@ -8,8 +8,8 @@ Eleventy generated static site, managed through Forestry and hosted on GitHub Pa
 The site's code is stored on GitHub and it will also be hosted there. To get this working, follow these steps:
 
 1. Get a GitHub account
-1. Fork this starter site
-1. Enable workflows on the site (disabled by default by Github for security reasons after a fork). Also for pruner workflow.
+1. Fork or copy template this starter site
+1. Not needed if copied the template. Enable workflows on the site (disabled by default by Github for security reasons after a fork). Also for pruner workflow.
 1. If not going to use own domain name, need to rename repo to "username.github.io" so that it is served from the the root and not "https://username.github.io/repo-name" 
 1. Setup Github pages
     1. If deploying to username.github.io => branch = "gh-pages", folder = "root"

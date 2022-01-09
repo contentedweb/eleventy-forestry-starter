@@ -1,14 +1,14 @@
 name: Eleventy Build
 on:
   workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * *'
+    # * is a special character in YAML so you have to quote this string
   #push:
     #paths-ignore: #don't build live site if only committed to drafts folder, changed forestry config or changed github config
     #  - 'src/posts/drafts/**' 
     #  - '.forestry/**' 
     #  - '.github/**' 
-  #schedule:
-    # * is a special character in YAML so you have to quote this string
-    #- cron:  '1 3 * * *'
 
 jobs:
   build_deploy:

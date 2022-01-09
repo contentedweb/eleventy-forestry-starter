@@ -1,21 +1,21 @@
 {
-  "title": "Kalinka",
-  "url": "https://templ.contentedweb.com/",
+  "title": "Contented CMS",
+  "url": "https://cms.contentedweb.com/",
   "language": "en",
-  "description": "About ladybirds",
+  "description": "A starter site for Eleventy with Forestry baked in",
   "startYear": 2005,
   "relme": "https://github.com/contentedweb",
   "theme": "olden",
   "feed": {
-    "subtitle": "A starter site for Eleventy with Forestry added in",
+    "subtitle": "A starter site for Eleventy with Forestry baked in",
     "filename": "index.xml",
     "path": "/feed/index.xml",
-    "id": "https://templ.contentedweb.com/"
+    "id": "https://cms.contentedweb.com/"
   },
   "author": {
-    "name": "Kalinka",
+    "name": "Contented CMS",
     "email": "admin@contentedweb.com",
-    "url": "https://templ.contentedweb.com/about/"
+    "url": "https://cms.contentedweb.com/about/"
   },
   "css": {
     "headerBgColor": "#F2E3A9",

@@ -10,4 +10,4 @@ eleventyNavigation:
 
 This is a basic starter kit for [Eleventy](https://www.11ty.dev/), with [Forestry](https://forestry.io/) for editing and [GitHub Pages](https://pages.github.com/) for hosting baked in.
 
-For more information on how to get started, see the [how to site](https://help.contentedweb.com).
+For more information on how to get started, see the [how to site](https://cms.contentedweb.com).

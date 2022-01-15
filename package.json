@@ -28,7 +28,6 @@
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1"
   },
-  "dependencies": {},
   "main": ".eleventy.js",
   "directories": {
     "doc": "docs"
